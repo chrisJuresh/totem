@@ -38,28 +38,19 @@
 
         layer_6 {
             bindings = <
-           &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P
-           &kp A  &kp S  &kp D    &kp F      &kp G        &kp H      &kp J      &kp K      &kp L    &kp SEMI
-&kp LSHFT  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSPC
-                         &kp ESC  &lt 1 TAB  &kp LCTRL    &kp SPACE  &kp ENTER  &trans
+           &kp Q  &kp W  &kp E    &kp R      &kp T        &kp Y    &kp U     &kp I      &kp O    &kp P
+           &kp A  &kp S  &kp D    &kp F      &kp G        &kp H    &kp J     &kp K      &kp L    &kp SEMI
+&kp LSHFT  &kp Z  &kp X  &kp C    &kp V      &kp B        &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                         &kp ESC  &lt 1 TAB  &kp SPACE    &kp RET  &kp BSPC  &kp DEL
             >;
         };
 
         layer_1 {
             bindings = <
-        &bt BT_NXT  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans
-        &bt BT_PRV  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
-&trans  &trans      &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-                            &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_2 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp DEL   &kp BSPC   &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp DOWN  &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+                &kp N1      &kp N2      &kp N3     &kp N4  &kp N5    &kp N6  &kp N7    &kp N8     &kp N9     &kp N0
+                &trans      &trans      &trans     &trans  &trans    &trans  &kp LEFT  &kp UP     &kp RIGHT  &trans
+&bt BT_CLR_ALL  &bt BT_PRV  &bt BT_NXT  &trans     &trans  &trans    &trans  &trans    &kp DOWN   &trans     &trans  &trans
+                                        &kp LSHFT  &trans  &trans    &trans  &trans    &kp RSHFT
             >;
         };
     };
